@@ -1,0 +1,69 @@
+
+body{
+  background: url("../images/Background.jpg") no-repeat center fixed;
+  text-font:Calibri;
+  font-size:2em;
+  background-size: cover;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid black;
+}
+
+li:last-child {
+    border-right: none;
+    border-left:1px solid black;
+}
+
+li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover:not(.active) {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #4CAF50;
+    cursor:default;
+}
+
+.topBar{
+  font-size: 1.5em;
+  border:5px solid black;
+  border-radius:10px;
+}
+
+.header{
+  position:absolute;
+  top:20%;
+  left:10%;
+  border:10px groove  orange;
+  margin:auto;
+  padding:20px;
+}
+
+.bmmLogo{
+  display:inline;
+  width:200px;
+  height:70px;
+}
+
+#nsw{
+  visibility:hidden;
+}
